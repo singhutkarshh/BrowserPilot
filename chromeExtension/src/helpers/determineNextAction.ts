@@ -49,7 +49,7 @@ export async function determineNextAction(
 
   const openai = new OpenAIApi(
     new Configuration({
-      apiKey: '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',
+      apiKey: process.env.REACT_APP_OPENAI_API_KEY || '',
     })
   );
 

@@ -1,6 +1,6 @@
 const  SettingsSlice = {  
-  openAIKey: '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',  
-  selectedModel: 'gpt-3.5-turbo',  
+  openAIKey: REACT_APP_OPENAI_API_KEY || '',  
+  selectedModel: 'gpt-4',  
   actions: {  
     update: function(values) {  
       SettingsSlice = {  
