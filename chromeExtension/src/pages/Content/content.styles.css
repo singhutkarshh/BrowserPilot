@@ -1,0 +1,32 @@
+:root {
+
+  --tw-text-opacity: 1;
+  --tw-bg-opacity: 1;
+  --tw-border-opacity: 1;
+  
+  --primary-background: rgb(25 26 26 / var(--tw-bg-opacity));
+  --secondary-background: rgb(32 34 34 / var(--tw-bg-opacity));
+
+  --primary-text-color: rgb(232 232 230 / var(--tw-text-opacity));
+  --secondary-text-color: rgb(141 145 145/var(--tw-text-opacity));
+
+  --primary-border: rgba(61, 63, 64, .5);
+  --secondary-border: rgb(217 217 208 / var(--tw-border-opacity));
+}
+
+.web-agent-ripple {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: web-agent-ripple 0.5s ease-out;
+  background-color: rgba(0, 0, 255, 0.961);
+  pointer-events: none;
+  z-index: 9999;
+}
+
+@keyframes web-agent-ripple {
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
