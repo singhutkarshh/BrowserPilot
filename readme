@@ -1,14 +1,18 @@
-BrowserPilot uses GPT-4 to control your browser and perform repetitive actions on your behalf.
-
-There are two versions of this project:
-
-### 1. Chrome Extension
-
-A chrome extension is easy installable in existing  Chrome browser. It uses GPT-4 to control your browser and perform repetitive actions on your behalf.
-It is mainly helpful where login in required and you have already logged in in your current browser.
-
-### 2. Puppeteer Agent
-
-A puppeteer agent is a standalone application that uses GPT-4 to control your browser and perform repetitive actions on your behalf.
-It is mainly helpful where login in not required as it opens new chromium tab on every request.
-It is also helpful in running headless browser.
+# BrowserPilot: Automate Your Browsing with GPT-4  
+  
+BrowserPilot is a powerful tool that uses GPT-4 to control your browser and perform repetitive actions on your behalf. There are two versions of this project:  
+  
+## 1. Chrome Extension  
+- The Chrome extension is easily installable in your existing Chrome browser.
+- It utilizes GPT-4 to automate your browsing, making it particularly useful for tasks that require login credentials.  
+  
+## 2. Puppeteer Agent  
+- The Puppeteer agent is a standalone application that also leverages GPT-4 to control your browser.
+- It is especially helpful for tasks that do not require login, as it opens a new Chromium tab for each request.
+- Additionally, it is capable of running a headless browser.  
+  
+---  
+  
+By using BrowserPilot, you can significantly reduce the time and effort spent on repetitive browsing tasks, allowing you to focus on more important work.   
+  
+If you're ready to take your browsing to the next level, download BrowserPilot today!  
